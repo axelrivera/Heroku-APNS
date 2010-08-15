@@ -1,12 +1,12 @@
-=Heroku APNS
+# Heroku APNS
 
 This is a sinatra app for people who want to quickly and easily deploy an APNS server to Heroku
 
-==Acknowledgements:
+## Acknowledgements:
 
 Based on apn_on_rails
 
-==Installing:
+## Installing:
 
 First, replace the apple_push_notifiation_production.pem with your own .pem file
 
@@ -14,21 +14,21 @@ Next, if you are testing on your local database, create a local-database.yml fil
 
 Finally, deploy to Heroku
 
-==Usage:
+## Usage:
 
 There are three API endpoints: 
 
-===register
+### register
 Parameters: token
 This should be formatted as a single string with no &lt; or spaces. 
 
-===message
+### message
 Parameters: token, badge, message
 
-===deliver
+### deliver
 This should be called by an external cron job because heroku lacks a minute-by-minute cron capability
 
-===feedback
+### feedback
 This should be called by an external cron job because heroku lacks a minute-by-minute cron capability
 
 
