@@ -1,0 +1,6 @@
+adapter: mysql
+database: FILL_IN_WITH_YOUR_VALUE
+username: FILL_IN_WITH_YOUR_VALUE
+password: FILL_IN_WITH_YOUR_VALUE
+host: localhost
+encoding: utf8
